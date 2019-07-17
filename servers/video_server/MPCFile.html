@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dash.js Rocks</title>
+        <style>
+            video {
+                width: 640px;
+                height: 360px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <video id="videoPlayer" controls muted="muted"></video>
+        </div>
+        <script src="dash.js/dist/dash.all.min.js"></script>
+        <script src="dash.js/src/streaming/rules/abr/MPCRule.js"></script>
+        <script>
+            (function(){
+                var url = "http://localhost:80/Manifest.mpd"
+                var player = dashjs.MediaPlayer().create();
+                player.useDefaultABRRules(false);
+                player.addABRCustomRule('qualitySwitchRules', 'MPCRule', MPCRule);
+                player.initialize(document.querySelector("#videoPlayer"));
+                player.initialize();
+                player.attachSource(url);
+            })();
+        </script>
+    </body>
+</html>

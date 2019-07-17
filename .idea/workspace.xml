@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3a74a6c-9442-4f6a-9f3a-6e255a7a9fe4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/servers/video_server/dash.js/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servers/video_server/dash.js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servers/video_server/dash.js/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servers/video_server/dash.js/moo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/BoggartRule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servers/video_server/dash.js/weights.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/samples/advanced/abr/LowestBitrateRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/samples/advanced/abr/LowestBitrateRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/samples/advanced/abr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/samples/advanced/abr/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/core/FactoryMaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/core/FactoryMaker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/dash/DashAdapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/dash/DashAdapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/dash/DashHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/dash/DashHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/FragmentLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/FragmentLoader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/ManifestLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/ManifestLoader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/MediaPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/MediaPlayer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/controllers/AbrController.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/controllers/AbrController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/controllers/ScheduleController.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/controllers/ScheduleController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/controllers/StreamController.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/controllers/StreamController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/models/MediaPlayerModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/models/MediaPlayerModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/net/HTTPLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/net/HTTPLoader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/ThroughputHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/ThroughputHistory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/ABRRulesCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/ABRRulesCollection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/BolaRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/BolaRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/DroppedFramesRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/DroppedFramesRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/InsufficientBufferRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/InsufficientBufferRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/SwitchHistoryRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/SwitchHistoryRule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/ThroughputRule.js" beforeDir="false" afterPath="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/ThroughputRule.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servers/mpc_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_on_internet/communication.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_on_internet/run_all_in_internet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video2/convert_to_json.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/convert_to_json.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="100" selection-start-line="7" selection-start-column="100" selection-end-line="7" selection-end-column="100" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rewards.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servers/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>player</find>
+      <find>past_bandwidth_ests</find>
+      <find>self.state</find>
+      <find>batch</find>
+      <find>mb</find>
+      <find>start_ptr</find>
+      <find>pri</find>
+      <find>0.5</find>
+      <find>quality_from_throughput</find>
+      <find>60</find>
+      <find>batch[LAST_BR_IDX]</find>
+      <find>arm_counter</find>
+      <find>bitrate_size_ra</find>
+      <find>contexts_counter</find>
+      <find>LAST_BR_IDX</find>
+      <find>print</find>
+      <find>DATA_IP</find>
+      <find>LOGGING_IP</find>
+      <find>IP</find>
+      <find>inc_dec</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>network_state</replace>
+      <replace>state</replace>
+      <replace>mb</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/servers/video_server/dash.js" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/abr/abr.py" />
+        <option value="$PROJECT_DIR$/abr_algs/__init__.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/constants.py" />
+        <option value="$PROJECT_DIR$/abr_algs/boggart/__init__.py" />
+        <option value="$PROJECT_DIR$/abr_algs/abr.py" />
+        <option value="$PROJECT_DIR$/abr_algs/mpc.py" />
+        <option value="$PROJECT_DIR$/abr_algs/pensieve/nn.py" />
+        <option value="$PROJECT_DIR$/abr_algs/pensieve/stam.py" />
+        <option value="$PROJECT_DIR$/abr_algs/pensieve/pensieve.py" />
+        <option value="$PROJECT_DIR$/abr_algs/pensieve/Pensieve.py" />
+        <option value="$PROJECT_DIR$/video2/convert_to_json'.py" />
+        <option value="$PROJECT_DIR$/video2/convert_to_json.py" />
+        <option value="$PROJECT_DIR$/test_traces_json/fcc_trace59.json" />
+        <option value="$PROJECT_DIR$/test_traces_json/fcc_trace61.json" />
+        <option value="$PROJECT_DIR$/results.py" />
+        <option value="$PROJECT_DIR$/abr_algs/bba.py" />
+        <option value="$PROJECT_DIR$/abr_algs/bolae.py" />
+        <option value="$PROJECT_DIR$/abr_algs/throughput.py" />
+        <option value="$PROJECT_DIR$/servers/abr_server.py" />
+        <option value="$PROJECT_DIR$/servers/__init__.py" />
+        <option value="$PROJECT_DIR$/servers/server.py" />
+        <option value="$PROJECT_DIR$/servers/video_server/ThroughputFile.html" />
+        <option value="$PROJECT_DIR$/servers/video_server/PensieveFile.html" />
+        <option value="$PROJECT_DIR$/servers/video_server/MPCFile.html" />
+        <option value="$PROJECT_DIR$/servers/video_server/BufferFile.html" />
+        <option value="$PROJECT_DIR$/servers/video_server/BolaFile.html" />
+        <option value="$PROJECT_DIR$/servers/video_server/BoggartFile.html" />
+        <option value="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/BolaRule.js" />
+        <option value="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/BufferRule.js" />
+        <option value="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/MPCRule.js" />
+        <option value="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/Pensieve.js" />
+        <option value="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/ThroughputRule.js" />
+        <option value="$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/BoggartRule.js" />
+        <option value="$PROJECT_DIR$/run_all_in_internet.py" />
+        <option value="$PROJECT_DIR$/servers/mpc_server.py" />
+        <option value="$PROJECT_DIR$/servers/pensieve_server.py" />
+        <option value="$PROJECT_DIR$/init_all_servers.py" />
+        <option value="$PROJECT_DIR$/communication.py" />
+        <option value="$PROJECT_DIR$/test_on_internet/communication.py" />
+        <option value="$PROJECT_DIR$/abr_algs/boggart/boggart.py" />
+        <option value="$PROJECT_DIR$/abr_algs/boggart/contextual_exp3.py" />
+        <option value="$PROJECT_DIR$/abr_algs/boggart/contexts.py" />
+        <option value="$PROJECT_DIR$/abr_algs/boggart/exp3.py" />
+        <option value="$PROJECT_DIR$/servers/logging_server.py" />
+        <option value="$PROJECT_DIR$/data/convert_to_json.py" />
+        <option value="$PROJECT_DIR$/test_on_internet/run_all_in_internet.py" />
+        <option value="$PROJECT_DIR$/env.py" />
+        <option value="$PROJECT_DIR$/rewards.py" />
+        <option value="$PROJECT_DIR$/run_all.py" />
+        <option value="$PROJECT_DIR$/session.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="995" />
+    <option name="y" value="21" />
+    <option name="width" value="924" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Boggart2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boggart2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boggart2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Boggart2" sdk-home="/usr/bin/python2">
+        <option name="mySdkHome" value="/usr/bin/python2" />
+        <option name="myModuleName" value="Boggart2" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_on_internet" />
+      <recent name="$PROJECT_DIR$/abr_algs/pensieve" />
+      <recent name="$PROJECT_DIR$/abr/boggart" />
+      <recent name="$PROJECT_DIR$/abr" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/servers" />
+      <recent name="$PROJECT_DIR$/abr_algs/pensieve" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_all_in_internet">
+    <configuration name="communication" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Boggart2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_on_internet/communication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="init_all_servers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Boggart2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_on_internet/init_all_servers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Boggart2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_all_in_internet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Boggart2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_on_internet/run_all_in_internet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="session" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Boggart2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/session.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.session" />
+      <item itemvalue="Python.run_all" />
+      <item itemvalue="Python.init_all_servers" />
+      <item itemvalue="Python.run_all_in_internet" />
+      <item itemvalue="Python.communication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_all_in_internet" />
+        <item itemvalue="Python.communication" />
+        <item itemvalue="Python.init_all_servers" />
+        <item itemvalue="Python.run_all" />
+        <item itemvalue="Python.session" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3a74a6c-9442-4f6a-9f3a-6e255a7a9fe4" name="Default Changelist" comment="" />
+      <created>1557329449931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557329449931</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="71" y="21" width="1849" height="1058" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497006" visible="true" weight="0.19277108" />
+      <window_info id="Structure" order="1" sideWeight="0.502994" side_tool="true" weight="0.13691129" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44771242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27292576" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292683" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.2838428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/env.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/json_fcc/fcc_trace1" />
+    <entry file="file://$PROJECT_DIR$/data/json_fcc/fcc_trace34" />
+    <entry file="file://$PROJECT_DIR$/data/json_fcc/fcc_trace82" />
+    <entry file="file://$PROJECT_DIR$/data/json_fcc/fcc_trace980" />
+    <entry file="file://$PROJECT_DIR$/data/train_norway/norway_trace13">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_traces_json/fcc_trace59.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video2/manifest2.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stam.py" />
+    <entry file="file://$PROJECT_DIR$/results.py" />
+    <entry file="file://$PROJECT_DIR$/results/boggart_one_trace_lin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/pensieve_one_trace_lin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/abr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/bba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/bolae.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/mpc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/throughput.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/boggart_server.py" />
+    <entry file="file://$PROJECT_DIR$/servers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/ThroughputFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/PensieveFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/MPCFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/BufferFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/BolaFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/BolaRule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/BufferRule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/MPCRule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="135" column="44" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/ThroughputRule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="163" column="52" selection-start-line="163" selection-start-column="52" selection-end-line="163" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/Pensieve.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/dash.js/src/streaming/rules/abr/BoggartRule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/tensorflow/python/training/saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="1537" selection-start-line="1537" selection-end-line="1537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/pensieve_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/pensieve/Pensieve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_on_internet/init_all_servers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/video_server/BoggartFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/boggart/boggart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/boggart/contexts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/boggart/contextual_exp3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_algs/boggart/exp3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/bba_one_trace_lin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/logging_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/mpc_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servers/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_on_internet/communication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/convert_to_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="100" selection-start-line="7" selection-start-column="100" selection-end-line="7" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_on_internet/run_all_in_internet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abr_logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video2/convert_to_json.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rewards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
